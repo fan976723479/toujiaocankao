@@ -50,6 +50,7 @@ html {
 .box .content {
   width: 92%;
   margin: 0 auto;
+  background: white;
 }
 
 .box .content span {
