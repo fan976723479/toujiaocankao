@@ -1,0 +1,202 @@
+html{
+    font-size:16px;   
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 微软雅黑;
+}
+.box{
+    // overflow: hidden;
+    nav{
+        width: 100%;
+        background: #EFF1F5 100%;
+        height: 2.4rem;
+        margin-top: 1rem;
+        overflow: hidden;
+        h5{
+            width: 92%;
+            font-size: 1.2rem;
+            margin: 0 auto;
+            overflow: hidden;
+            .img1{
+                width: 1.2rem;
+                float: left;
+                margin-top: 0.5rem;
+            }
+            img{
+                width: 1.5rem;
+                float: left;
+                margin-top: 0.5rem;
+            }
+            span{
+                float: left;
+                margin-top: 0.4rem;
+                color: rgba(212, 0, 0, 1);
+                margin-left:0.5rem;
+            }
+        }
+    }
+}
+.ul1{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    li{
+        width: 92%;
+        margin: 0 auto;
+        border-bottom: 0.01rem solid #cccccc;
+        overflow: hidden;
+        a{
+            display: block;
+            font-size: 1rem;
+            height: 2.5rem;
+            line-height: 2.5rem;
+            text-decoration: none;
+            color: black;
+            font-weight: 700;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        p{
+            height: 3.3rem;
+            line-height: 1.15rem;
+            color: rgba(74, 74, 74, 1);
+            font-size: 0.8rem;
+            margin-bottom: 0.6rem;
+            overflow: hidden;
+        }
+    }
+}
+
+.page_div {
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: "microsoft yahei";
+    color: #666666;
+    margin-right: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    margin:  0 auto;
+}
+/*
+ * 页数按钮样式
+ */
+.pagenumber{
+    width: 3rem;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    p{
+        font-size: 0.8rem;
+    }
+}
+.page_div a {
+    min-width: 30px;
+    height: 28px;
+    // border: 1px solid #dce0e0!important;
+    text-align: center;
+    margin: 0 4px;
+    cursor: pointer;
+    line-height: 28px;
+    color: #666666;
+    font-size: 13px;
+    display: inline-block;
+}
+
+#firstPage,
+#lastPage {
+    width: 50px;
+    color: #666666;
+    border: 1px solid #0073A9!important;
+}
+
+#prePage,
+#nextPage {
+    // width: 70px;
+    color: #666666;
+    // border: 1px solid #0073A9!important;
+}
+
+.page_div .current {
+  color: red;
+}
+
+.totalPages {
+    margin: 0 10px;
+}
+
+.totalPages span,
+.totalSize span {
+    color: #0073A9;
+    margin: 0 5px;
+}
+
+.box_c{
+    width: 100%;
+    height: auto;
+    font-family: 微软雅黑;
+    font-size: 0.3rem;
+}
+header{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
+.title{
+    margin: 0 auto;
+    width: 95%;
+    height: auto;
+    border-bottom: 1px solid #cccccc;
+    font-size: 0.23rem;
+    color: black;
+    font-family: SourceHanSansSC-Medium;
+    padding-bottom: 0.1rem;
+}
+.content{
+    margin: 0 auto;
+    width: 95%;
+    height: 0.65rem;;
+    border-bottom: 1px solid #cccccc;
+    font-size: 0.26rem;
+    color: rgba(0, 82, 164, 1);
+    img{
+        width: 0.6rem;
+        vertical-align: middle;
+        margin-left: 1rem;
+    }
+    a{
+        margin-top: 0.2rem;
+        display: inline-block;
+    }
+}
+.back{
+    margin: 0 auto;
+    width: 95%;
+    h5{
+        font-size: 0.26rem;
+        margin-top: 0.17rem;
+        overflow: hidden;
+        img{
+            width: 0.32rem;
+            vertical-align: middle;
+            float: left;
+        }
+        p{
+            float: left;
+            margin-left: 0.1rem;
+        }
+    }
+    a{
+        text-decoration: none;
+        display: block;
+        margin-top: 0.17rem;
+        font-size: 0.26rem;
+        font-weight: 600;
+        color: rgba(0, 82, 164, 1);
+        border-bottom: 1px solid #cccccc;
+        padding-bottom: 0.06rem;
+    }
+}
